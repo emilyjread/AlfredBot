@@ -6,10 +6,12 @@ public class AlfredTest{
         // String testDateAnnouncement = alfredBot.dateAnnouncement();
         //  String alexisTest = alfredBot.respondbeforeAlexis(
         //     "Alexis! Play some lo-fi beats");
-        String alfredtest = alfredBot.respondbeforeAlexis(
-            "I can't find my yo-yo. Maybe Alfred will know where it is."
-        );
+        // String alfredtest = alfredBot.respondbeforeAlexis(
+        //     "I can't find my yo-yo. Maybe Alfred will know where it is."
+        // );
 
-        System.out.println(alfredtest);
+        String yellTest = alfredBot.yell("Ouch ", "I stubbed my toe");
+
+        System.out.println(yellTest);
     }
 }

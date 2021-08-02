@@ -15,4 +15,8 @@ public class AlfredQuotes{
     public String respondbeforeAlexis(String conversation){
         return conversation;
     }
+
+    public String yell(String expression, String problem){
+        return expression+problem;
+    }
 }
